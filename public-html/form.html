@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="">
+
+	    <title>Tugas pengembangan aplikasi web</title>
+
+	    <!-- Bootstrap core CSS -->
+	    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/style.css" rel="stylesheet">
+	    <script src="bootstrap/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</head>
+	
+<body>
+<div class="container">
+    <!– Bagian Header –>
+    <div class="row">
+        <div class="col-md-12 header" id="site-header">
+            <!– isi header –>
+				<div class="col-sm-2"><img src="gbr/akakom.gif" width="150" height="150"></div>
+				<div class="col-sm-10"><h1 class="title-site">TUGAS PROYEK PENGEMBANGAN APLIKASI WEB</h1>
+				<p class="description">Pertemuan Tiga</p>
+				</div>
+		</div>
+		<div class="col-md-12 header" id="site-header">
+			<nav class="menus">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="anggota.html">Anggota Kelompok</a></li>
+					<li><a href="form.html">Form</a></li>
+					<li><a href="galery.html">Galery</a></li>
+				</ul>
+			</nav>
+        </div>
+    </div>
+    <!– End Bagian Header –>
+    <!– Bagian Wrapper 2 kolom –>
+    <div class="row">
+        <div class="col-md-8 articles" id="site-content">
+           <!– isi content –>
+		   <article class="posts">
+			<h2>Input form</h2>
+			  <form class="form-horizontal" action="anggota.html" >
+				<div class="form-group">
+				  <label class="col-sm-4" for="nik" >NIM</label>
+				  <div class="col-sm-8">          
+					<input class="form-control" id="nim" placeholder="Input NIM" name="nim">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="col-sm-4" for="nama">Nama</label>
+				  <div class="col-sm-8">
+					<input class="form-control" id="nama" placeholder="Input Nama" name="nama">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="col-sm-4" for="kmntr">Komentar</label>
+				  <div class="col-sm-8">          
+					<textarea class="form-control" rows="5" id="comment" placeholder="Komentar anda"></textarea>
+				  </div>
+				</div>
+				<div class="form-group">     
+				  <label class="col-sm-4" for="kmntr"></label>
+				  <div class="col-sm-8" >
+					<button type="submit" class="btn btn-default">SIMPAN</button>
+				  </div>
+				</div>
+			  </form>
+		   </article>
+        </div>
+        <div class="col-md-4 sidebar" id="site-sidebar">
+            <!– isi sidebar –>
+			<div class="list-group" style="margin:5px;">
+				<li class="list-group-item active" disabled>DAFTAR LINK</li>
+				<a href="http://www.akakom.ac.id" class="list-group-item">STMIK Akakom</a>
+				<a href="http://ti.akakom.ac.id" class="list-group-item">Teknik Informatika Akakom</a>
+				<a href="http://si.akakom.ac.id" class="list-group-item">Sistem Informasi Akakom</a>
+				<a href="http://keuportal.akakom.ac.id" class="list-group-item">Sistem Keuportal</a>
+				<a href="http://siakad.akakom.ac.id" class="list-group-item">Sistem Siakad</a>
+			</div>
+        </div>
+    </div>
+    <!– End Bagian wrapper –>
+    <!– Bagian footer –>
+    <div class="row">
+        <div class="col-md-12 footer" id="site-footer" >
+            <!– isi footer –>
+			<footer class="copyright"><p>Copyright &copy; Agus Bintarto </p></footer>
+        </div>
+    </div>
+    <!– End Bagian footer –>
+</div>
+
+</body>
+</html>
